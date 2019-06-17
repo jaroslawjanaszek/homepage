@@ -1,0 +1,23 @@
+body {
+    background: #fefefe
+}
+
+.sectionHeader, .diaryHeader {
+    color: #1460aa;
+}
+
+.paragraph {
+    color: darkblue;
+}
+
+.heading {
+    color:#14aa46;
+}
+
+.link {
+    color:#1460aa;
+}
+
+.thirdHeader {
+    color: darkcyan;
+}
