@@ -1,5 +1,5 @@
 body {
-    background: #d3d0d0
+    background: #f8f7f7
 }
 
 .sectionHeader, .diaryHeader {
@@ -8,16 +8,65 @@ body {
 
 .paragraph {
     color: darkblue;
+    padding: 10px;
+    overflow: hidden;
 }
 
 .heading {
-    color:#14aa46;
+    color: #14aa46;
 }
 
 .link {
-    color:#1460aa;
+    color: #1460aa;
 }
 
 .thirdHeader {
     color: darkcyan;
+}
+
+.about {
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 25px auto;
+    padding-top: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #1a936f;
+    text-decoration: none:
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+}
+
+.inter {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    float: left;
+    margin: 0 16px 0 16px;
 }
