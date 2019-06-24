@@ -16,22 +16,35 @@ body {
     color: #14aa46;
 }
 
-.link {
-    color: #1460aa;
-}
-
 .thirdHeader {
     color: darkcyan;
 }
 
 .about {
+    
 }
+
+.about__header {
+    color: #1460aa;
+}
+
+.about__paragraph {
+    color: darkblue;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.about__image {
+    
+}
+
 
 .main {
     width: 100%;
     max-width: 700px;
     margin: 25px auto;
     padding-top: 50px;
+    color: sandybrown;
 }
 
 .box {
@@ -50,7 +63,7 @@ body {
     bottom: 10px;
     right: 10px;
     color: #1a936f;
-    text-decoration: none:
+    text-decoration: none;
 }
 
 .navigation {
@@ -61,6 +74,11 @@ body {
     box-sizing: border-box;
     padding: 16px;
     background: #fff;
+}
+
+.navigation__link {
+    color: #1460aa;
+    text-decoration: none;
 }
 
 .inter {
