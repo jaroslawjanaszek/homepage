@@ -2,27 +2,19 @@ body {
     background: #f8f7f7
 }
 
-.sectionHeader, .diaryHeader {
-    color: #1460aa;
-}
-
-.paragraph {
-    color: darkblue;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.heading {
+.header__title {
     color: #14aa46;
 }
 
-.thirdHeader {
-    color: darkcyan;
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 25px auto;
+    padding-top: 50px;
+    color: sandybrown;
 }
 
-.about {
-    
-}
+.about {}
 
 .about__header {
     color: #1460aa;
@@ -34,18 +26,19 @@ body {
     overflow: hidden;
 }
 
-.about__image {
-    
-}
-
-
-.main {
+.about__image {    
     width: 100%;
-    max-width: 700px;
-    margin: 25px auto;
-    padding-top: 50px;
-    color: sandybrown;
+    max-width: 200px;
+    display: block;
+    float: left;
+    margin: 0 16px 0 16px;
 }
+
+.about__paragraph--mini {
+    color: aqua;
+}
+
+.about__paragraph--js {}
 
 .box {
     width: 100px;
@@ -81,10 +74,26 @@ body {
     text-decoration: none;
 }
 
-.inter {
-    width: 100%;
-    max-width: 200px;
-    display: block;
-    float: left;
-    margin: 0 16px 0 16px;
+.club {
+
+}
+
+.club__header {
+    color: #1460aa;
+}
+
+.club-content {
+    padding: 16px;
+}
+
+.club-content__header {
+    color: darkcyan;
+}
+
+.club-content__paragraph {
+    color: darkblue;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    line-height: 24px;
 }
