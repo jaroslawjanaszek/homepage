@@ -7,12 +7,21 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<header class="navigation">
-		<a class="navigation__link" href="index.html">Strona główna</a>
-		<a class="navigation__link" href="podstrona.html">Podstrona</a>
+	<header class="site-header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a class="navigation__link" href="index.html">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="podstrona.html">Podstrona</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 	<main id="top" class="main">
 		<header>
@@ -32,81 +41,140 @@
 			</p>
 			<p class="about__paragraph about__paragraph--js">
 			</p>
-		</section>
-
-		<section class="club">
-			<h2 class="club__header">Inter Mediolan czyli Nerazzurri.</h2>
-			
-			<section class="club-content">
-				<h3 class="club-content__header">
-					<a href="kolejna-podstrona.html">Skriniar najbardziej wartościowym graczem Interu!</a>
-				</h3>
-				<p class="club-content__paragraph">
-					Nowym trenerem <b>Bianconerich</b> zostać ma <strong>Maurizio Sarri</strong>, w związku z czym zapowiada się w
-					Turynie mała
-					rewolucja kadrowa w linii ataku. Z klubem pożegnać się mają Mario Mandzukic i Douglas Costa.<br>
-				</p>
+			<section class="hobby">
+				<h3 class="hobby__header">Moje hobby:</h3>
+				<ul class="hobby__list">
+					<li>nauka frontend</li>
+					<li>jazda na rowerze
+						<ol>
+							<li>nauka frontend</li>
+							<li>jazda na rowerze</li>
+							<li>spanie</li>
+						</ol>
+					</li>
+					<li>spanie</li>
+				</ul>
 			</section>
 
-			<section class="club-content">
-				<h3 class="club-content__header">
-					Jak stworzyć prawidłowy HTML?
-				</h3>
-				<p class="club-content__paragraph">I tu pojawia się postać napastnika Interu, <i>Mauro Icardiego</i>, którego Fabio Paratici
-					widzi w swoim
-					klubie. Słaba forma i problemy w szatni sprawiły, że <em>Argentyńczyk</em> jest na wylocie z Interu. W dodatku
-					kwota,
-					jaką trzeba by za niego zapłacić, jest w porównaniu z ubiegłym rokiem relatywnie niska.<br>
-					<a class="navigation__link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a</a>
-				</p>
-			</section>
-			
-			<section class="club-content">
-				<h3 class="club-content__header">
-					Czy nagrywanie szkolenia to prosta sprawa?
-				</h3>
-				<p class="club-content__paragraph">Tuttosport wyklucza jednak możliwość wymiany Icardi - Dybala. Sternicy klubu z Turynu liczą
-					bowiem,
-					że nowy
-					trener tchnie w Dybalę nową energię. </p>
+			<section class="club">
+				<h2 class="club__header">Inter Mediolan czyli Nerazzurri.</h2>
+
+				<section class="club-content">
+					<h3 class="club-content__header">
+						<a href="kolejna-podstrona.html">Skriniar najbardziej wartościowym graczem Interu!</a>
+					</h3>
+					<p class="club-content__paragraph">
+						Nowym trenerem <b>Bianconerich</b> zostać ma <strong>Maurizio Sarri</strong>, w związku z czym zapowiada się
+						w
+						Turynie mała
+						rewolucja kadrowa w linii ataku. Z klubem pożegnać się mają Mario Mandzukic i Douglas Costa.<br>
+					</p>
+				</section>
+
+				<section class="club-content">
+					<h3 class="club-content__header">
+						Jak stworzyć prawidłowy HTML?
+					</h3>
+					<p class="club-content__paragraph">I tu pojawia się postać napastnika Interu, <i>Mauro Icardiego</i>, którego
+						Fabio Paratici
+						widzi w swoim
+						klubie. Słaba forma i problemy w szatni sprawiły, że <em>Argentyńczyk</em> jest na wylocie z Interu. W
+						dodatku
+						kwota,
+						jaką trzeba by za niego zapłacić, jest w porównaniu z ubiegłym rokiem relatywnie niska.<br>
+						<a class="navigation__link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a</a>
+					</p>
+				</section>
+
+				<section class="club-content">
+					<h3 class="club-content__header">
+						Czy nagrywanie szkolenia to prosta sprawa?
+					</h3>
+					<p class="club-content__paragraph">Tuttosport wyklucza jednak możliwość wymiany Icardi - Dybala. Sternicy
+						klubu z Turynu liczą
+						bowiem,
+						że nowy
+						trener tchnie w Dybalę nową energię. </p>
+				</section>
+
+				<section class="club-content">
+					<h3 class="club-content__header">
+						Ustawienie 3-5-2 również w Primaverze Interu.
+					</h3>
+					<p class="club-content__paragraph">
+						Jak donosi Tuttosport, rewolucja Antonio Conte w Interze wpłynie na coś więcej niż tylko pierwszy zespół.
+						Mowa
+						tu o drużynach młodzieżowych Interu, które przyjmą to samo ustawienie, z którego korzystać będzie nowy
+						trener
+						Nerazzurrich.
+						System 3-5-2, którym ma grać drużyna Interu pod wodzą Antonio Conte, będzie również wykorzystywany przez
+						młodzieżowe drużyny Nerazzurrich.
+						Trener Primavery - Armando Madonna - już zaczął tworzyć podstawy do nowej formacji dla swojego zespołu. W
+						półfinałowym zwycięstwie 3:0 nad Romą, Madonna wykorzystał to ustawienie - jak widać z wielkim sukcesem,
+						biorąc pod uwagę końcowy wynik.
+						Dzięki stosowaniu takiej polityki również w drużynach młodzieżowych jasne jest, że zarząd klubu chce uczynić
+						łatwiejszą drogę do pierwszego zespołu dla młodych zawodników. </p>
+				</section>
+
+				<section class="club-content">
+					<h3 class="club-content__header">
+						LGdS - dwie opcje dla Lautaro Martineza.
+					</h3>
+					<p class="club-content__paragraph">
+						Eksplozja talentu lub ławka: to dwa scenariusze, które La Gazzetta dello Sport przedstawia Lautaro
+						Martinezowi, gdy zbliżamy się do jego drugiego sezonu w Interze.
+
+						Plotki dotyczące rynku transferowego mówią nam, że Dzeko i Lukaku są na liście życzeń Conte, ale konkurencja
+						nie może przestraszyć Il Toro. Z nowym trenerem będzie dwóch napastników w wyjściowej jedenastce. Co prawda
+						Politano dołącza do grupy rywali Argentyntyńczyka, ale Lautaro ma uzasadnione przekonanie, że może z nim
+						rywalizować. Z pewnością będzie miał większe szanse niż na początku jego przygody w Interze, gdy hierarchia
+						napastników została całkowicie zablokowana przez Icardiego, który był wtedy nie do ruszenia.
+						Martinez zdaje sobie sprawę, że w swoim drugim sezonie musi jeszcze bardziej się rozwinąć, ponieważ ma on
+						dwie
+						opcje:
+						Albo jego forma eksploduje przy Conte, być może grając z Dzeko, który doskonale wie, jak wspomóc drugiego
+						napastnika, albo skończy jako rezerwowy. - informuje gazeta. </p>
+				</section>
 			</section>
 
-			<section class="club-content">
-				<h3 class="club-content__header">
-					Ustawienie 3-5-2 również w Primaverze Interu.
-				</h3>
-				<p class="club-content__paragraph">
-					Jak donosi Tuttosport, rewolucja Antonio Conte w Interze wpłynie na coś więcej niż tylko pierwszy zespół. Mowa
-					tu o drużynach młodzieżowych Interu, które przyjmą to samo ustawienie, z którego korzystać będzie nowy trener
-					Nerazzurrich.
-					System 3-5-2, którym ma grać drużyna Interu pod wodzą Antonio Conte, będzie również wykorzystywany przez
-					młodzieżowe drużyny Nerazzurrich.
-					Trener Primavery - Armando Madonna - już zaczął tworzyć podstawy do nowej formacji dla swojego zespołu. W
-					półfinałowym zwycięstwie 3:0 nad Romą, Madonna wykorzystał to ustawienie - jak widać z wielkim sukcesem,
-					biorąc pod uwagę końcowy wynik.
-					Dzięki stosowaniu takiej polityki również w drużynach młodzieżowych jasne jest, że zarząd klubu chce uczynić
-					łatwiejszą drogę do pierwszego zespołu dla młodych zawodników. </p>
+			<section class="glossary">
+				<dl>
+					<dt>CSS</dt>
+					<dd>
+						To co widzisz
+					</dd>
+					<dt>HTML</dt>
+					<dd>
+						treść + szkielet
+					</dd>
+				</dl>
 			</section>
 
-			<section class="club-content">
-				<h3 class="club-content__header">
-					LGdS - dwie opcje dla Lautaro Martineza.
-				</h3>
-				<p class="club-content__paragraph">
-					Eksplozja talentu lub ławka: to dwa scenariusze, które La Gazzetta dello Sport przedstawia Lautaro
-					Martinezowi, gdy zbliżamy się do jego drugiego sezonu w Interze.
+			<section class="data">
+				<table>
+					<caption>Oceny z I semestru przedmiotu WTF</caption>
+					<thead>
+						<tr>
+							<th>Imię nazwisko</th>
+							<th>Ocena</th>
+							<th>Data</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jarek Janaszek</td>
+							<td>5</td>
+							<td>05.05.19</td>
+						</tr>
+						<tr>
+							<td>Uczeń Uczniowski</td>
+							<td>4</td>
+							<td>15.04.19</td>
+						</tr>
+					</tbody>
+				</table>
 
-					Plotki dotyczące rynku transferowego mówią nam, że Dzeko i Lukaku są na liście życzeń Conte, ale konkurencja
-					nie może przestraszyć Il Toro. Z nowym trenerem będzie dwóch napastników w wyjściowej jedenastce. Co prawda
-					Politano dołącza do grupy rywali Argentyntyńczyka, ale Lautaro ma uzasadnione przekonanie, że może z nim
-					rywalizować. Z pewnością będzie miał większe szanse niż na początku jego przygody w Interze, gdy hierarchia
-					napastników została całkowicie zablokowana przez Icardiego, który był wtedy nie do ruszenia.
-					Martinez zdaje sobie sprawę, że w swoim drugim sezonie musi jeszcze bardziej się rozwinąć, ponieważ ma on dwie
-					opcje:
-					Albo jego forma eksploduje przy Conte, być może grając z Dzeko, który doskonale wie, jak wspomóc drugiego
-					napastnika, albo skończy jako rezerwowy. - informuje gazeta. </p>
 			</section>
-		</section>
 
 	</main>
 	<footer>
