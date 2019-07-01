@@ -45,3 +45,11 @@ console.log(calculate(2));
 
 const calculateFat = x => (x+3)*7;
 console.log(calculateFat(2));
+
+
+
+const welcome = (namee, agee) => {
+  console.log(`Witaj ${namee}, masz ${agee} lat.`)
+}
+
+welcome("Jarek", 26);
