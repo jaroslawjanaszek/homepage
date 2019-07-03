@@ -38,12 +38,12 @@ console.log(amIOld);
 function calculate(x) {
   x = x + 3;
   console.log(`trafycyjnie ${x}`);
-  return x*7;
+  return x * 7;
 }
 
 console.log(calculate(2));
 
-const calculateFat = x => (x+3)*7;
+const calculateFat = x => (x + 3) * 7;
 console.log(calculateFat(2));
 
 
@@ -53,3 +53,19 @@ const welcome = (namee, agee) => {
 }
 
 welcome("Jarek", 26);
+
+const button = document.querySelector('.header__button--js');
+console.log(button);
+
+
+button.addEventListener('click', (e) => {
+  const header = document.querySelector('.header__title--js');
+  header.innerHTML = 'klik, klik';
+});
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js');
+
+navigationSwitcher.addEventListener('click', (e) => {
+  const navigationList = document.querySelector('.navigation__list--js');
+  navigationList.classList.toggle('navigation__list--visible');
+});
