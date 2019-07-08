@@ -13,6 +13,7 @@ body {
 
 .header {
     grid-area: header;
+    margin-top: 16px;
 }
 
 .header__title {
@@ -30,6 +31,44 @@ body {
     grid-template-columns: 200px 1fr;
 }
 
+.article {
+    width: 100%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas: "header"
+    "photo"
+    "content";
+    grid-template-columns: 1fr;
+}
+
+.article__header{
+    grid-area: header;
+    margin-top: 16px;
+}
+
+.article__header--title {
+    color: #14aa46;
+}
+
+.article__section {
+    grid-area: photo;
+}
+
+.article__photo {
+    width: 100%;
+    padding: 16px;
+}
+
+.article__content {
+    grid-area: content;
+}
+
+.article__paragraph {
+    
+}
+
 @media (max-width: 640px) {
 .main {
     grid-template-areas: "header"
@@ -39,7 +78,7 @@ body {
 }
 }
 
-.conent {
+.content {
     grid-area: content;
 }
 
@@ -62,6 +101,7 @@ body {
     max-width: 200px;
     display: block;
     float: left;
+    padding: 16px;
     margin: 0 16px 0 16px;
 }
 
@@ -69,17 +109,8 @@ body {
     color: aqua;
 }
 
-.about__paragraph--js {}
+.about__paragraph--js {
 
-.box {
-    width: 100px;
-    height: 100px;
-    background: yellowgreen;
-    padding: 10px;
-    border: 10px solid red;
-    box-sizing: border-box;
-    position: sticky;
-    top: 0;
 }
 
 .top {
@@ -121,11 +152,16 @@ body {
     text-decoration: none;
 }
 
+.navigation__link:hover {
+    color:hotpink;
+}
+
 .club {}
 
 .club__header {
     color: #1460aa;
 }
+
 
 .club-content {
     padding: 16px;
@@ -135,21 +171,29 @@ body {
     color: darkcyan;
 }
 
+.club-content__header::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1460aa;
+}
+.club-content__header::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1460aa;
+}
+
 .club-content__paragraph {
     color: darkblue;
     padding: 0;
     margin: 0;
     overflow: hidden;
     line-height: 24px;
-}
-
-.hobby {}
-
-.hobby__header {}
-
-.hobby__list {
-    list-style: none;
-    padding: 0;
 }
 
 .grid {

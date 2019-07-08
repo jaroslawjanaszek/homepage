@@ -5,9 +5,6 @@ console.log(name);
 console.log(age);
 console.log(`Nazywam się ${name} i mam ${age} lat`);
 
-const about = document.querySelector(`.about__paragraph--js`);
-console.log(about);
-about.innerHTML = `Nazywam się ${name} i mam ${age} lat`;
 
 if ('javascript' != 'java') {
   console.log(`to prawda!`)
@@ -57,11 +54,6 @@ welcome("Jarek", 26);
 const button = document.querySelector('.header__button--js');
 console.log(button);
 
-
-button.addEventListener('click', (e) => {
-  const header = document.querySelector('.header__title--js');
-  header.innerHTML = 'klik, klik';
-});
 
 const navigationSwitcher = document.querySelector('.navigation__switcher--js');
 
